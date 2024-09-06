@@ -1,0 +1,51 @@
+body
+{
+    border: 1px solid red;
+    font-size: 16px; /*Por defecto las paginas tienen un tamaño de 16px*/
+    margin: 0px auto; /*Para margenes, centra el margen con el auto */
+    max-width: 1024px; /*Margen ideal para tablets*/
+
+}
+/*Afecta al ol que se encuenta en el nav que se encuentra en el header*/
+header nav ol
+{
+    text-align: center;
+}
+
+footer{
+    border: 1px solid blue;
+}
+
+header img{
+    border-radius: 500;
+    width: 150px;
+    height: 150;
+}
+/*Afecta a los li que se encuentra en el ol que se encuentra en el nav que se encuentra en el header*/
+header nav ol li
+{
+    background: green;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px gray;
+    color: white;
+    display: inline-block;
+    margin-right: 25px; /*Separa la distancia de los bordes de opcion*/
+    /*/padding: 12px;*/
+    padding: 10px 26px;
+}
+
+header nav ol li:hover
+{
+    background: white;
+    color: green;
+    box-shadow: 0px 0px 0px white;
+}
+/*Afecta a article que esta en main*/
+main section article
+{
+    /*border: 1px solid red;*/ 
+    display: inline-block;/*Para agrupar la informacion de articulos*/
+    vertical-align: top; /*Para que quede la informacion hacia arriba*/
+    width: 32.8%;
+}
